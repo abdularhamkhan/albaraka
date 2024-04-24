@@ -8,10 +8,12 @@ import Notiflix from 'notiflix';
 
 const DemoProduct = (props) => {
 
-    useDocTitle('MLD | Molad e Konsult - Demo our products')
+    useDocTitle('Al-Baraka Meetups')
 
     const [firstName, setFirstName] = useState('')
     const [lastName, setLastName] = useState('')
+    const [brandName, setBrandName] = useState('')
+    const [designation, setDesignation] = useState('')
     const [email, setEmail] = useState('')
     const [phone, setPhone] = useState('')
     const [message, setMessage] = useState('')
@@ -39,6 +41,8 @@ const DemoProduct = (props) => {
     const clearInput = () => {
         setFirstName('')
         setLastName('')
+        setBrandName('')
+        setDesignation('')
         setEmail('')
         setPhone('')
         setMessage('')
@@ -51,6 +55,8 @@ const DemoProduct = (props) => {
         let fData = new FormData();
         fData.append('first_name', firstName)
         fData.append('last_name', lastName)
+        fData.append('brand_name', brandName)
+        fData.append('desig_nation', designation)
         fData.append('email', email)
         fData.append('phone_number', phone)
         fData.append('message', message)
@@ -120,8 +126,10 @@ const DemoProduct = (props) => {
                     <form onSubmit={sendEmail} id="demoProductForm">
                         <div className="w-full bg-white p-8 my-4 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40 mr-auto rounded-2xl shadow-2xl">
                             <div className="flex">
-                                <h1 className="font-bold text-center lg:text-left text-blue-900 uppercase text-4xl">Demo our products</h1>
-                            </div>
+                                <h1 className="font-bold text-center lg:text-left text-blue-900 uppercase text-4xl">Explore Our Exceptional Suite of Services</h1>
+                                </div>
+                                <p className='mt-2 font-bold text-center lg:text-left text-blue-900 text-xl'> What area(s) do you want to improve immediately? *</p>
+                            
                             <div className="flex items-center my-4">
                                 <input 
                                     id="checkbox-1" 
@@ -130,8 +138,55 @@ const DemoProduct = (props) => {
                                     className="bg-gray-50 border-gray-300 focus:ring-3 focus:ring-blue-300 h-4 w-4 rounded" 
                                     value="business_management_system" onChange={handleChange}
                                  />
-                                <label htmlFor="checkbox-1" className="ml-3 text-lg font-medium text-gray-900">Business Management System</label>
+                                <label htmlFor="checkbox-1" className="ml-3 text-lg font-medium text-gray-900">Advertising</label>
                             </div>
+
+                            <div className="flex items-center my-4">
+                                <input 
+                                    id="checkbox-1" 
+                                    aria-describedby="checkbox-1" 
+                                    type="checkbox" 
+                                    className="bg-gray-50 border-gray-300 focus:ring-3 focus:ring-blue-300 h-4 w-4 rounded" 
+                                    value="business_management_system" onChange={handleChange}
+                                 />
+                                <label htmlFor="checkbox-1" className="ml-3 text-lg font-medium text-gray-900">Brand Presence on Amazon</label>
+                            </div>
+
+                            <div className="flex items-center my-4">
+                                <input 
+                                    id="checkbox-1" 
+                                    aria-describedby="checkbox-1" 
+                                    type="checkbox" 
+                                    className="bg-gray-50 border-gray-300 focus:ring-3 focus:ring-blue-300 h-4 w-4 rounded" 
+                                    value="business_management_system" onChange={handleChange}
+                                 />
+                                <label htmlFor="checkbox-1" className="ml-3 text-lg font-medium text-gray-900">Chargebacks / Dues</label>
+                            </div>
+
+                            <div className="flex items-center my-4">
+                                <input 
+                                    id="checkbox-1" 
+                                    aria-describedby="checkbox-1" 
+                                    type="checkbox" 
+                                    className="bg-gray-50 border-gray-300 focus:ring-3 focus:ring-blue-300 h-4 w-4 rounded" 
+                                    value="business_management_system" onChange={handleChange}
+                                 />
+                                <label htmlFor="checkbox-1" className="ml-3 text-lg font-medium text-gray-900">Growth Strategy</label>
+                            </div>
+
+                            <div className="flex items-center my-4">
+                                <input 
+                                    id="checkbox-1" 
+                                    aria-describedby="checkbox-1" 
+                                    type="checkbox" 
+                                    className="bg-gray-50 border-gray-300 focus:ring-3 focus:ring-blue-300 h-4 w-4 rounded" 
+                                    value="business_management_system" onChange={handleChange}
+                                 />
+                                <label htmlFor="checkbox-1" className="ml-3 text-lg font-medium text-gray-900">Intellectual Property (IP) Protection</label>
+                            </div>
+
+
+
                             <div className="flex items-center my-4">
                                 <input 
                                     id="checkbox-1" 
@@ -140,7 +195,7 @@ const DemoProduct = (props) => {
                                     className="bg-gray-50 border-gray-300 focus:ring-3 focus:ring-blue-300 h-4 w-4 rounded"
                                     value="school_management_portal" onChange={handleChange}
                                     />
-                                <label htmlFor="checkbox-1" className="ml-3 text-lg font-medium text-gray-900">School Management Portal</label>
+                                <label htmlFor="checkbox-1" className="ml-3 text-lg font-medium text-gray-900">Operations</label>
                             </div>
                             <div className="flex items-center my-4">
                                 <input 
@@ -150,7 +205,7 @@ const DemoProduct = (props) => {
                                     className="bg-gray-50 border-gray-300 focus:ring-3 focus:ring-blue-300 h-4 w-4 rounded" 
                                     value="payroll_management_system" onChange={handleChange}
                                 />
-                                <label htmlFor="checkbox-1" className="ml-3 text-lg font-medium text-gray-900">Payroll Management System</label>
+                                <label htmlFor="checkbox-1" className="ml-3 text-lg font-medium text-gray-900">Optimization</label>
                             </div>
                             <div className="flex items-center my-4">
                                 <input 
@@ -160,7 +215,7 @@ const DemoProduct = (props) => {
                                     className="bg-gray-50 border-gray-300 focus:ring-3 focus:ring-blue-300 h-4 w-4 rounded"
                                     value="event_management_system" onChange={handleChange}
                                 />
-                                <label htmlFor="checkbox-1" className="ml-3 text-lg font-medium text-gray-900">Event Management System</label>
+                                <label htmlFor="checkbox-1" className="ml-3 text-lg font-medium text-gray-900">Profitability</label>
                             </div>
                             {errors && 
                                 <p className="text-red-500 text-sm">{errors.products}</p>
@@ -228,9 +283,10 @@ const DemoProduct = (props) => {
                                 </div>
                         </div>
                         <div className="my-4">
+                            <p className='mt-2 font-bold text-center lg:text-left text-blue-900 text-xl'>What's Your Amazon Account Status?</p>
                             <textarea 
                                 name="message" 
-                                placeholder="Message*" 
+                                placeholder="What challenges are you currently experiencing with Amazon?*" 
                                 className="w-full h-32 bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
                                 value={message}
                                 onChange={(e)=> setMessage(e.target.value)}
@@ -256,7 +312,7 @@ const DemoProduct = (props) => {
                                 </div>
                                 <div className="flex flex-col">
                                     <h2 className="text-2xl">Office Address</h2>
-                                    <p className="text-gray-400">Ilo Awela, Ota, Ogun State</p>
+                                    <p className="text-gray-400">126 D, Faisal Town, Lahore</p>
                                 </div>
                             </div>
                             
@@ -267,11 +323,11 @@ const DemoProduct = (props) => {
 
                                 <div className="flex flex-col">
                                     <h2 className="text-2xl">Call Us</h2>
-                                    <p className="text-gray-400">Tel: 08055384406</p>
+                                    <p className="text-gray-400">Tel: +44 7308 648896</p>
                                 
                                     <div className='mt-5'>
                                         <h2 className="text-2xl">Send an E-mail</h2>
-                                        <p className="text-gray-400">info@mld.ng</p>
+                                        <p className="text-gray-400">alBarakaITsolutions@gmail.com</p>
                                     </div>
                             
                                 </div>

@@ -1,7 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import NavLinks from '../Navbar/NavLinks';
 import { HashLink } from 'react-router-hash-link';
+import img from '../../images/logo.png';
 
+
+
+const logoimage = {
+    height: '10rem',
+    width: 'auto',
+    mixBlendMode: 'colorBurn'
+}
 
 const NavBar = () => {
     const [top, setTop] = useState(!window.scrollY);
@@ -22,10 +30,17 @@ const NavBar = () => {
     return (
         <nav className={`fixed top-0 w-full z-30 transition duration-300 ease-in-out mb-16 ${!top && 'bg-white shadow-lg'}`}>
             <div className="flex flex-row justify-between items-center py-2">
-                <div className="flex flex-row justify-center md:px-12 md:mx-12 items-center text-center font-semibold">
-                    <HashLink smooth to="/#hero"><h1 className="font-extrabold text-4xl text-blue-900">mld</h1></HashLink>
+            <div className="flex flex-row justify-center md:px-12 md:mx-12 sm:mx-12 items-center text-center font-semibold">
+                <HashLink smooth to="/#hero">
                     
-                </div>
+                <div style={logoimage} className="overflow-hidden p-3 flex content-center mb-8 justify-center transition-all ease-in-out">
+                            <img src={img} alt="logo" />                            
+                        </div>
+                    
+
+                   {/* <h1 className="font-bold ml-10 sm:max-lg:ml-0 text-base xs:text-sm sm:text-md md:text-xl lg:text-2xl xl:text-4xl 2xl:text-5xl text-blue-900">al-Baraka IT Solutions</h1> */}
+                </HashLink> 
+            </div>
                 <div className="group flex flex-col items-center">
                     <button className="p-2 rounded-lg lg:hidden text-blue-900" onClick={handleClick}>
                         <svg className="h-6 w-6 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">

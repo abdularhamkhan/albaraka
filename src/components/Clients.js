@@ -2,6 +2,12 @@ import React from 'react';
 import kws from '../images/clients/kws.png';
 import geps from '../images/clients/geps.png';
 import protergia from '../images/clients/protergia.png';
+import ctt from '../images/clients/ctt.png';
+import logo1 from '../images/clients/logo1.png';
+import logo2 from '../images/clients/logo2.png';
+import logo3 from '../images/clients/logo3.png';
+import logo4 from '../images/clients/logo4.png';
+import logo5 from '../images/clients/logo5.png';
 
 const clientImage = {
     height: '10rem',
@@ -18,23 +24,48 @@ const Clients = () => {
                         <div className='flex justify-center'>
                             <div className='w-24 border-b-4 border-blue-900'></div>
                         </div>
-                        <h2 className="mt-4 mx-12 text-center text-xl lg:text-2xl font-semibold text-blue-900">Some of our clients.</h2>
+                        <h2 className="mt-4 mx-12 text-center text-xl lg:text-2xl font-semibold text-blue-900">We have built our client relations on trust over the years</h2>
                     </div>
 
                 <div className="p-16" data-aos="fade-in" data-aos-delay="600">
                     <div className="grid sm:grid-cols-3 lg:grid-cols-3">
-                        <div style={clientImage} className= "overflow-hidden flex justify-center transition-all ease-in-out opacity-50 hover:opacity-100 w-1/6">
+                        <div style={clientImage} className= "overflow-hidden flex justify-center transition-all ease-in-out hover:opacity-100 w-1/6">
                             <img src={kws} alt="client" />                           
                         </div>
 
-                        <div style={clientImage} className="overflow-hidden p-3 flex justify-center transition-all ease-in-out opacity-50 hover:opacity-100">
+                        <div style={clientImage} className="overflow-hidden p-3 flex justify-center transition-all ease-in-out hover:opacity-100">
                             <img src={protergia} alt="client" />                            
                         </div> 
 
-                        <div style={clientImage} className="overflow-hidden p-3 flex justify-center transition-all ease-in-out opacity-50 hover:opacity-100">
+                        <div style={clientImage} className="overflow-hidden p-3 flex justify-center transition-all ease-in-out hover:opacity-100">
                             <img src={geps} alt="client" />                            
                         </div>
 
+                        <div style={clientImage} className="overflow-hidden p-3 flex justify-center transition-all ease-in-out hover:opacity-100">
+                            <img src={ctt} alt="client" />                            
+                        </div>
+
+                        <div style={clientImage} className="overflow-hidden p-3 flex justify-center transition-all ease-in-out  hover:opacity-100">
+                            <img src={logo1} alt="client" />                            
+                        </div>
+
+                        <div style={clientImage} className="overflow-hidden p-3 flex justify-center transition-all ease-in-out  hover:opacity-100">
+                            <img src={logo2} alt="client" />                            
+                        </div>
+
+                        <div style={clientImage} className="overflow-hidden p-3 flex justify-center transition-all ease-in-out hover:opacity-100">
+                            <img src={logo3} alt="client" />                            
+                        </div>
+
+                        <div style={clientImage} className="overflow-hidden p-3 flex justify-center transition-all ease-in-out  hover:opacity-100">
+                            <img src={logo4} alt="client" />                            
+                        </div>
+
+                        <div style={clientImage} className="overflow-hidden p-3 flex justify-center transition-all ease-in-out hover:opacity-100">
+                            <img src={logo5} alt="client" />                            
+                        </div>
+
+                       
                                            
                     </div>
                 </div>
