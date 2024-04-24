@@ -15,7 +15,7 @@ const Portfolio = () => {
                         <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:scale-105 rounded-lg shadow-2xl p-3 min-h-max">
                             <div className="m-2 text-justify text-sm">
                                 <h4 className="font-semibold my-4 text-lg md:text-2xl text-center mb-4 h-12">We Focus on Return on Investment (ROI)</h4>
-                                <p className="text-md font-medium leading-5 h-auto md:h-48">
+                                <p className="text-md font-medium leading-5 h-auto md:h-48 mt-14">
                                 Our goal is to help you succeed by focusing on driving sales, increasing brand awareness, and in the end, increasing your ROI.
                                 </p>
                                 <div className="flex justify-center my-4">
@@ -30,7 +30,7 @@ const Portfolio = () => {
                         <div className="bg-white transition-all ease-in-out duration-400 overflow-hidden text-gray-700 hover:scale-105 rounded-lg shadow-2xl p-3">
                             <div className="m-2 text-justify text-sm">
                                 <h4 className="font-semibold my-4 text-lg md:text-2xl text-center mb-4 h-12">We Provide Trackable Guaranteed Sales</h4>
-                                <p className="text-md font-medium leading-5 h-auto md:h-48">
+                                <p className="text-md font-medium leading-5 h-auto md:h-48 mt-14">
                                 With your products on the forefront, we strategize and optimize your product listing, allowing your products to shine and sell for themselves.
                                 </p>
                                 <div className="flex justify-center my-4">
@@ -56,7 +56,7 @@ const Portfolio = () => {
                         <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:scale-105 rounded-lg shadow-2xl p-3">
                             <div className="m-2 text-justify text-sm">
                             <h4 className="font-semibold my-4 text-lg md:text-2xl text-center mb-4 h-12">Amazon Best Practices Aligned to the Algorithm</h4>
-                                <p className="text-md font-medium leading-5 h-auto md:h-48">
+                                <p className="text-md font-medium leading-5 h-auto md:h-48 mt-14">
                                     We utilize all our knowledge of the Amazon best practices to create a customized Amazon listing that encompasses the value of your brand and the product you offer.
                                 </p>
                                 <div className="flex justify-center my-4">
@@ -71,7 +71,7 @@ const Portfolio = () => {
                         <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:scale-105 rounded-lg shadow-2xl p-3">
                             <div className="m-2 text-justify text-sm">
                                 <h4 className="font-semibold my-4 text-lg md:text-2xl text-center mb-4 h-12">Measures and Refines Campaigns Over Time</h4>
-                                <p className="text-md font-medium leading-5 h-auto md:h-48">
+                                <p className="text-md font-medium leading-5 h-auto md:h-48 mt-14">
                                 As the marketplace evolves, we will tailor your strategy to stay on top. Our skilled team of Amazon Experts ensures that your campaigns are given the unfair advantage of the latest e-commerce strategies.
                                 </p>
                                 <div className="flex justify-center my-4">
@@ -88,7 +88,7 @@ const Portfolio = () => {
                         <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:scale-105 rounded-lg shadow-2xl p-3">
                             <div className="m-2 text-justify text-sm">
                             <h4 className="font-semibold my-4 text-lg md:text-2xl text-center mb-4 h-12">Step 1: Get Account Audit</h4>
-                                <p className="text-md font-medium leading-5 h-auto md:h-48">
+                                <p className="text-md font-medium leading-5 h-auto md:h-48 mt-14">
                                 We perform a comprehensive audit of your account, listings and competitors to understand key areas where improvement is needed.                     </p>
                                 <div className="flex justify-center my-4">
                                     <Link to="/get-demo" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-xl">
@@ -105,7 +105,7 @@ const Portfolio = () => {
                         <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:scale-105 rounded-lg shadow-2xl p-3">
                             <div className="m-2 text-justify text-sm">
                             <h4 className="font-semibold my-4 text-lg md:text-2xl text-center mb-4 h-12">Step 2: Activate ROI Plans</h4>
-                                <p className="text-md font-medium leading-5 h-auto md:h-48">
+                                <p className="text-md font-medium leading-5 h-auto md:h-48 mt-14">
                                 We create and execute actions to achieve the biggest impact in the shortest timeframe possible. This phase usually focuses on commercial and operational elements.
                                 </p>
                                 <div className="flex justify-center my-4">
@@ -122,7 +122,7 @@ const Portfolio = () => {
                         <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:scale-105 rounded-lg shadow-2xl p-3">
                             <div className="m-2 text-justify text-sm">
                             <h4 className="font-semibold my-4 text-lg md:text-2xl text-center mb-4 h-12">Step 3: Accelerate Sales</h4>
-                                <p className="text-md font-medium leading-5 h-auto md:h-48">
+                                <p className="text-md font-medium leading-5 h-auto md:h-48 mt-14">
                                 We outline a long term growth strategy, that includes an extensive commercial strategy along with listing optimization and product positioning.
                                 </p>
                                 <div className="flex justify-center my-4">
@@ -139,7 +139,7 @@ const Portfolio = () => {
                         <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:scale-105 rounded-lg shadow-2xl p-3">
                             <div className="m-2 text-justify text-sm">
                             <h4 className="font-semibold my-4 text-lg md:text-2xl text-center mb-4 h-12">Step 4: Account Management</h4>
-                                <p className="text-md font-medium leading-5 h-auto md:h-48">
+                                <p className="text-md font-medium leading-5 h-auto md:h-48 mt-14">
                                 We fully manage the Amazon channel, advise, plan and execute for you, while keeping you in charge of all commercial and brand related decisions.
                                 </p>
                                 <div className="flex justify-center my-4">
