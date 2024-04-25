@@ -108,7 +108,7 @@ const Footer = () => {
                                 to="#"
                                 className=" hover:text-gray-900"
                             >
-                                Al Baraka Solutions Pvt Ltd 
+                                Al Baraka IT Solutions Pvt Ltd 
                             </HashLink>. All rights reserved.
                             </div>
                         </div>
