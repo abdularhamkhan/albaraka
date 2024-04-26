@@ -33,8 +33,8 @@ const NavBar = () => {
             <div className="flex flex-row justify-center md:px-12 md:mx-12 sm:mx-12 items-center text-center font-semibold">
                 <HashLink smooth to="/#hero">
                     
-                {/* <div className="overflow-hidden flex content-center mb-8 justify-center transition-all ease-in-out mt-2 ml-2">
-                    <img src={img} alt="logo" className='xxs:w-[5px] xxs:h-[5px] xs:w-[45px] xs:h-[45px] sm:w-[65px] sm:h-[65px] md:w-[75px] md:h-[75px] lg:w-[95px] lg:h-[95px] xl:w-[115px] xl:h-[115px]'/>                            
+                {/* <div className="overflow-hidden flex content-left mb-8 justify-left transition-all ease-in-out mt-2 ml-2">
+                    <img src={img} alt="logo" className='xxs:w-[15px] xxs:h-[15px] xs:w-[45px] xs:h-[45px] sm:w-[65px] sm:h-[65px] md:w-[75px] md:h-[75px] lg:h-[95px] xl:w-[115px] xl:h-[115px]'/>                            
                 </div> */}
                     
 
