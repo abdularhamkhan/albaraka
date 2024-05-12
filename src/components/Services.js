@@ -1,8 +1,12 @@
 import React from 'react';
-import img from '../images/web.svg';
-import img2 from '../images/app.svg';
-import img3 from '../images/hosting.svg';
-import img4 from '../images/consultation.svg';
+import img from '../images/ppc.svg';
+import img2 from '../images/content.svg';
+import img3 from '../images/accmanage.svg';
+import img4 from '../images/audit.svg';
+import img5 from '../images/brand.svg'
+import img6 from '../images/design.svg'
+import img7 from '../images/ads.svg'
+import img8 from '../images/aplus.svg'
 
 
 const Services = () => {
@@ -62,7 +66,7 @@ const Services = () => {
 
                         <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                             <div className="m-2 text-justify text-sm">
-                                <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img3} />
+                                <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img5} />
                                 <h2 className="font-semibold my-4 text-2xl text-center ">Brand Building & Consulting</h2>
                                 <p className="text-md font-medium">
                                     Product Launch Strategy, Vender Central (1P) vs. Seller Central (3P) analysis & considerations, Profitability / CRaP Analysis, New Opportunity Identification, Category Analysis.</p>
@@ -71,7 +75,7 @@ const Services = () => {
 
                         <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                             <div className="m-2 text-justify text-sm">
-                                <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img3} />
+                                <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img6} />
                                 <h2 className="font-semibold my-4 text-2xl text-center ">Design Strategy & User Experience</h2>
                                 <p className="text-md font-medium">
                                     Custom Product Images, Custom Branded AMS Campaigns, A+ Pages & Enhanced Brand Content & more.</p>
@@ -80,7 +84,7 @@ const Services = () => {
 
                         <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                             <div className="m-2 text-justify text-sm">
-                                <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img3} />
+                                <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img7} />
                                 <h2 className="font-semibold my-4 text-2xl text-center ">Advertising & AMS Management</h2>
                                 <p className="text-md font-medium">
                                     Maximizing the Reach of Advertisements, Ongoing Bid Management, Robust Testing, Campaign Optimization and more.</p>
@@ -89,7 +93,7 @@ const Services = () => {
 
                         <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                             <div className="m-2 text-justify text-sm">
-                                <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img3} />
+                                <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img8} />
                                 <h2 className="font-semibold my-4 text-2xl text-center ">Product Page Optimization & A+ Content Services</h2>
                                 <p className="text-md font-medium">
                                     Copy Optimization, Technical Optimization, Design Strategy & Enhanced Content, Backend Strategy and more.</p>

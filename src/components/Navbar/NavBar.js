@@ -33,10 +33,10 @@ const NavBar = () => {
             <div className="flex flex-row justify-center md:px-12 md:mx-12 sm:mx-12 items-center text-center font-semibold">
                 <HashLink smooth to="/#hero">
                     
-                {/* <div className="overflow-hidden flex content-left mb-8 justify-left transition-all ease-in-out mt-2 ml-2">
+                {/* <div className="overflow-hidden flex absolute content-left mb-8 justify-left transition-all ease-in-out mt-2 ml-2">
                     <img src={img} alt="logo" className='xxs:w-[15px] xxs:h-[15px] xs:w-[45px] xs:h-[45px] sm:w-[65px] sm:h-[65px] md:w-[75px] md:h-[75px] lg:h-[95px] xl:w-[115px] xl:h-[115px]'/>                            
-                </div> */}
-                    
+                </div>
+                     */}
 
                    <h1 className="font-bold ml-10 sm:max-lg:ml-0 text-base xs:text-sm sm:text-md md:text-xl lg:text-2xl xl:text-4xl 2xl:text-5xl text-blue-900">al-Baraka IT Solutions</h1>
                 </HashLink> 
