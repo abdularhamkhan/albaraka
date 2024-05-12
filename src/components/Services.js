@@ -27,8 +27,8 @@ const Services = () => {
                     <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
 
                         <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
-                            <div className="m-2 text-justify text-sm h-72 flex justify-center items-center">
-                                <img alt="card img" className="rounded-t group-hover:scale-[1.15] w-full h-full transition duration-1000 ease-in-out w-full" src={img} />
+                            <div className="m-2 text-justify text-sm md:h-72 flex justify-center items-center">
+                                <img alt="card img" className="rounded-t group-hover:scale-[1.15] w-full h-full transition duration-1000 ease-in-out md:w-full" src={img} />
                             </div>
                             <div>
                                 <h2 className="font-semibold my-4 text-2xl text-center">Amazon PPC Management</h2>
@@ -38,8 +38,8 @@ const Services = () => {
                         </div>
 
                         <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
-                            <div className="m-2 text-justify text-sm h-72 flex justify-center items-center">
-                                <img alt="card img" className="rounded-t group-hover:scale-[1.15] h-full transition duration-1000 ease-in-out" src={img2} />
+                            <div className="m-2 text-justify text-sm md:h-72 flex justify-center items-center">
+                                <img alt="card img" className="rounded-t group-hover:scale-[1.15] md:h-full transition duration-1000 ease-in-out" src={img2} />
                             </div>
                             <div>
                                 <h2 className="font-semibold my-4 text-2xl text-center">Amazon Listings Optimization</h2>
@@ -49,8 +49,8 @@ const Services = () => {
                         </div>
 
                         <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
-                            <div className="m-2 text-justify text-sm h-72 flex justify-center items-center">
-                                <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out h-full" src={img3} />
+                            <div className="m-2 text-justify text-sm md:h-72 flex justify-center items-center">
+                                <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out md:h-full" src={img3} />
                             </div>
                             <div>
                                 <h2 className="font-semibold my-4 text-2xl text-center ">Amazon Full Account Management</h2>
@@ -60,8 +60,8 @@ const Services = () => {
                         </div>
 
                         <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
-                            <div className="m-2 text-justify text-sm flex justify-center items-center h-72">
-                                <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out h-full" src={img4} />
+                            <div className="m-2 text-justify text-sm flex justify-center items-center md:h-72">
+                                <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out md:h-full" src={img4} />
                             </div>
                             <div>
                                 <h2 className="font-semibold my-4 text-2xl text-center ">Amazon Accounts Audits</h2>
@@ -73,8 +73,8 @@ const Services = () => {
 
 
                         <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
-                            <div className="m-2 text-justify text-sm flex justify-center items-center h-72">
-                                <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out h-full" src={img5} />
+                            <div className="m-2 text-justify text-sm flex justify-center items-center md:h-72">
+                                <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out md:h-full" src={img5} />
                             </div>
                             <div>
                                 <h2 className="font-semibold my-4 text-2xl text-center ">Brand Building & Consulting</h2>
@@ -84,8 +84,8 @@ const Services = () => {
                         </div>
 
                         <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
-                            <div className="m-2 text-justify text-sm flex justify-center items-center h-72">
-                                <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out h-56" src={img6} />
+                            <div className="m-2 text-justify text-sm flex justify-center items-center md:h-72">
+                                <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out md:h-56" src={img6} />
                             </div>
                             <div>
                                 <h2 className="font-semibold my-4 text-2xl text-center ">Design Strategy & User Experience</h2>
@@ -95,8 +95,8 @@ const Services = () => {
                         </div>
 
                         <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
-                            <div className="m-2 text-justify text-sm flex justify-center items-center h-72">
-                                <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out h-56" src={img7} />
+                            <div className="m-2 text-justify text-sm flex justify-center items-center md:h-72">
+                                <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out md:h-56" src={img7} />
                             </div>
                             <div>
                                 <h2 className="font-semibold my-4 text-2xl text-center ">Advertising & AMS Management</h2>
@@ -106,8 +106,8 @@ const Services = () => {
                         </div>
 
                         <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
-                            <div className="m-2 text-justify text-sm flex justify-center items-center h-72">
-                                <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out h-56" src={img8} />
+                            <div className="m-2 text-justify text-sm flex justify-center items-center md:h-72">
+                                <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out md:h-56" src={img8} />
                             </div>
                             <div>
                                 <h2 className="font-semibold my-4 text-2xl text-center ">Product Page Optimization & A+ Content Services</h2>
