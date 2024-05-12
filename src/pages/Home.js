@@ -7,7 +7,7 @@ import Intro from '../components/Intro';
 import Portfolio from '../components/Portfolio';
 import Services from '../components/Services';
 import NavBar from '../components/Navbar/NavBar';
-import Team from '../components/Team'
+// import Team from '../components/Team'
 
 
 const Home = () => {
@@ -18,7 +18,7 @@ const Home = () => {
             <Intro />
             <Services />
             <Portfolio />
-            <Team/>
+            {/* <Team/> */}
             <Clients />
             <Cta/>
             <Footer />
