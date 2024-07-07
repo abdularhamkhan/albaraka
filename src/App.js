@@ -30,7 +30,7 @@ function App() {
     });
   }, []);
 
-  useDocTitle("al-Baraka IT Solutions");
+  useDocTitle("AL-Baraka IT Solutions");
 
   return (
     <>
