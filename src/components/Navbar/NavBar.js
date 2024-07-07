@@ -38,7 +38,7 @@ const NavBar = () => {
                 </div>
                      */}
 
-                   <h1 className="font-bold ml-10 sm:max-lg:ml-0 text-base xs:text-sm sm:text-md md:text-xl lg:text-2xl xl:text-4xl 2xl:text-5xl text-blue-900">al-Baraka IT Solutions</h1>
+                   <h1 className="font-bold ml-10 sm:max-lg:ml-0 text-base xs:text-sm sm:text-md md:text-xl lg:text-2xl xl:text-4xl 2xl:text-5xl text-blue-900">AL-Baraka IT Solutions</h1>
                 </HashLink> 
             </div>
                 <div className="group flex flex-col items-center">
