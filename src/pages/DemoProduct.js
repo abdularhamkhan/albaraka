@@ -13,7 +13,7 @@ const DemoProduct = (props) => {
     const [firstName, setFirstName] = useState('')
     const [lastName, setLastName] = useState('')
     const [brandName, setBrandName] = useState('')
-    const [designation, setDesignation] = useState('')+44
+    const [designation, setDesignation] = useState('')
     const [email, setEmail] = useState('')
     const [phone, setPhone] = useState('')
     const [message, setMessage] = useState('')
