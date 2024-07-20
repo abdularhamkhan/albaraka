@@ -13,7 +13,7 @@ const DemoProduct = (props) => {
     const [firstName, setFirstName] = useState('')
     const [lastName, setLastName] = useState('')
     const [brandName, setBrandName] = useState('')
-    const [designation, setDesignation] = useState('')
+    const [designation, setDesignation] = useState('')+44
     const [email, setEmail] = useState('')
     const [phone, setPhone] = useState('')
     const [message, setMessage] = useState('')
@@ -312,7 +312,7 @@ const DemoProduct = (props) => {
                                 </div>
                                 <div className="flex flex-col">
                                     <h2 className="text-2xl">Office Address</h2>
-                                    <p className="text-gray-400">126 D, Faisal Town, Lahore</p>
+                                    <p className="text-gray-400">Lahore, Pakistan</p>
                                 </div>
                             </div>
                             
@@ -323,7 +323,7 @@ const DemoProduct = (props) => {
 
                                 <div className="flex flex-col">
                                     <h2 className="text-2xl">Call Us</h2>
-                                    <p className="text-gray-400">Tel: +44 7308 648896</p>
+                                    <p className="text-gray-400">Tel: +44 74 53231593</p>
                                 
                                     <div className='mt-5'>
                                         <h2 className="text-2xl">Send an E-mail</h2>
